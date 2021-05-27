@@ -74,13 +74,13 @@ p = ggraph(g, 'hive', axis = class, sort.by = degree) +
        edge_color = NULL, 
        x = NULL, 
        y = NULL, 
-       title = "Super Mario 64 recordists and their tracks", 
+       title = "Mario Kart 64 Wold Records... and their tracks", 
        subtitle = "Multiple players made records in more than one track.", 
-       caption =  "@GysiDeisy | #TidyTuesday \nSource: SuperMario 64 records") 
+       caption =  "@GysiDeisy | #TidyTuesday \nSource: Mario Kart 64 Wold Records") 
 
 png(filename = "result.png",
-    width = 40, 
-    height = 30, 
+    width = 20, 
+    height = 15, 
     units = 'cm',
     res = 400)
 p
