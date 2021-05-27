@@ -73,8 +73,8 @@ p = data_summary %>%
   )
 
 png(filename = "result.png",
-    width = 40, 
-    height = 30, 
+    width = 30, 
+    height = 20, 
     units = 'cm',
     res = 400)
 p
